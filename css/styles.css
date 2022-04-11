@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo-pagina {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(160, 95, 95);
+}
+
+.subtitulo-pagina {
+    text-align: center;
+    color: rgb(74, 71, 255);
+}
+
+.subtitulo-contenido {
+    padding: 0 2rem;
+    color: rgb(0, 128, 28);
+}
+
+.parrafo-01, .parrafo-02, .parrafo-03, .imagenes-contenido, .navegacion-contenido {
+    padding: 1rem 4rem;
+}
+
+.imagenes-contenido {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes-contenido > figure {
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem 0;
+}
+
+.imagenes-contenido > figure > img {
+    width: 100%;
+    height: 100%;
+}
